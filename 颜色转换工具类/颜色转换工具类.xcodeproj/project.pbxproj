@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0476692523890E9800A55AFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476692423890E9800A55AFA /* AppDelegate.m */; };
+		0476692B23890E9800A55AFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476692A23890E9800A55AFA /* ViewController.m */; };
+		0476692E23890E9800A55AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0476692C23890E9800A55AFA /* Main.storyboard */; };
+		0476693023890E9A00A55AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0476692F23890E9A00A55AFA /* Assets.xcassets */; };
+		0476693323890E9A00A55AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0476693123890E9A00A55AFA /* LaunchScreen.storyboard */; };
+		0476693623890E9A00A55AFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476693523890E9A00A55AFA /* main.m */; };
+		0476694023890E9A00A55AFA /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476693F23890E9A00A55AFA /* _______Tests.m */; };
+		0476694B23890E9A00A55AFA /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476694A23890E9A00A55AFA /* _______UITests.m */; };
+		0476695A23890EB000A55AFA /* ccColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476695923890EB000A55AFA /* ccColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0476693C23890E9A00A55AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0476691823890E9800A55AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0476691F23890E9800A55AFA;
+			remoteInfo = "颜色转换工具类";
+		};
+		0476694723890E9A00A55AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0476691823890E9800A55AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0476691F23890E9800A55AFA;
+			remoteInfo = "颜色转换工具类";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0476692023890E9800A55AFA /* 颜色转换工具类.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "颜色转换工具类.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0476692323890E9800A55AFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0476692423890E9800A55AFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0476692923890E9800A55AFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0476692A23890E9800A55AFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0476692D23890E9800A55AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0476692F23890E9A00A55AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0476693223890E9A00A55AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0476693423890E9A00A55AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0476693523890E9A00A55AFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0476693B23890E9A00A55AFA /* 颜色转换工具类Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "颜色转换工具类Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0476693F23890E9A00A55AFA /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		0476694123890E9A00A55AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0476694623890E9A00A55AFA /* 颜色转换工具类UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "颜色转换工具类UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0476694A23890E9A00A55AFA /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		0476694C23890E9A00A55AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0476695823890EB000A55AFA /* ccColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccColor.h; sourceTree = "<group>"; };
+		0476695923890EB000A55AFA /* ccColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccColor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0476691D23890E9800A55AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0476693823890E9A00A55AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0476694323890E9A00A55AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0476691723890E9800A55AFA = {
+			isa = PBXGroup;
+			children = (
+				0476692223890E9800A55AFA /* 颜色转换工具类 */,
+				0476693E23890E9A00A55AFA /* 颜色转换工具类Tests */,
+				0476694923890E9A00A55AFA /* 颜色转换工具类UITests */,
+				0476692123890E9800A55AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0476692123890E9800A55AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0476692023890E9800A55AFA /* 颜色转换工具类.app */,
+				0476693B23890E9A00A55AFA /* 颜色转换工具类Tests.xctest */,
+				0476694623890E9A00A55AFA /* 颜色转换工具类UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0476692223890E9800A55AFA /* 颜色转换工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				0476695823890EB000A55AFA /* ccColor.h */,
+				0476695923890EB000A55AFA /* ccColor.m */,
+				0476692323890E9800A55AFA /* AppDelegate.h */,
+				0476692423890E9800A55AFA /* AppDelegate.m */,
+				0476692923890E9800A55AFA /* ViewController.h */,
+				0476692A23890E9800A55AFA /* ViewController.m */,
+				0476692C23890E9800A55AFA /* Main.storyboard */,
+				0476692F23890E9A00A55AFA /* Assets.xcassets */,
+				0476693123890E9A00A55AFA /* LaunchScreen.storyboard */,
+				0476693423890E9A00A55AFA /* Info.plist */,
+				0476693523890E9A00A55AFA /* main.m */,
+			);
+			path = "颜色转换工具类";
+			sourceTree = "<group>";
+		};
+		0476693E23890E9A00A55AFA /* 颜色转换工具类Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0476693F23890E9A00A55AFA /* _______Tests.m */,
+				0476694123890E9A00A55AFA /* Info.plist */,
+			);
+			path = "颜色转换工具类Tests";
+			sourceTree = "<group>";
+		};
+		0476694923890E9A00A55AFA /* 颜色转换工具类UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0476694A23890E9A00A55AFA /* _______UITests.m */,
+				0476694C23890E9A00A55AFA /* Info.plist */,
+			);
+			path = "颜色转换工具类UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0476691F23890E9800A55AFA /* 颜色转换工具类 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0476694F23890E9A00A55AFA /* Build configuration list for PBXNativeTarget "颜色转换工具类" */;
+			buildPhases = (
+				0476691C23890E9800A55AFA /* Sources */,
+				0476691D23890E9800A55AFA /* Frameworks */,
+				0476691E23890E9800A55AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "颜色转换工具类";
+			productName = "颜色转换工具类";
+			productReference = 0476692023890E9800A55AFA /* 颜色转换工具类.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0476693A23890E9A00A55AFA /* 颜色转换工具类Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0476695223890E9A00A55AFA /* Build configuration list for PBXNativeTarget "颜色转换工具类Tests" */;
+			buildPhases = (
+				0476693723890E9A00A55AFA /* Sources */,
+				0476693823890E9A00A55AFA /* Frameworks */,
+				0476693923890E9A00A55AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0476693D23890E9A00A55AFA /* PBXTargetDependency */,
+			);
+			name = "颜色转换工具类Tests";
+			productName = "颜色转换工具类Tests";
+			productReference = 0476693B23890E9A00A55AFA /* 颜色转换工具类Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0476694523890E9A00A55AFA /* 颜色转换工具类UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0476695523890E9A00A55AFA /* Build configuration list for PBXNativeTarget "颜色转换工具类UITests" */;
+			buildPhases = (
+				0476694223890E9A00A55AFA /* Sources */,
+				0476694323890E9A00A55AFA /* Frameworks */,
+				0476694423890E9A00A55AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0476694823890E9A00A55AFA /* PBXTargetDependency */,
+			);
+			name = "颜色转换工具类UITests";
+			productName = "颜色转换工具类UITests";
+			productReference = 0476694623890E9A00A55AFA /* 颜色转换工具类UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0476691823890E9800A55AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = cc;
+				TargetAttributes = {
+					0476691F23890E9800A55AFA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					0476693A23890E9A00A55AFA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 0476691F23890E9800A55AFA;
+					};
+					0476694523890E9A00A55AFA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 0476691F23890E9800A55AFA;
+					};
+				};
+			};
+			buildConfigurationList = 0476691B23890E9800A55AFA /* Build configuration list for PBXProject "颜色转换工具类" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0476691723890E9800A55AFA;
+			productRefGroup = 0476692123890E9800A55AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0476691F23890E9800A55AFA /* 颜色转换工具类 */,
+				0476693A23890E9A00A55AFA /* 颜色转换工具类Tests */,
+				0476694523890E9A00A55AFA /* 颜色转换工具类UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0476691E23890E9800A55AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0476693323890E9A00A55AFA /* LaunchScreen.storyboard in Resources */,
+				0476693023890E9A00A55AFA /* Assets.xcassets in Resources */,
+				0476692E23890E9800A55AFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0476693923890E9A00A55AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0476694423890E9A00A55AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0476691C23890E9800A55AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0476692B23890E9800A55AFA /* ViewController.m in Sources */,
+				0476692523890E9800A55AFA /* AppDelegate.m in Sources */,
+				0476693623890E9A00A55AFA /* main.m in Sources */,
+				0476695A23890EB000A55AFA /* ccColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0476693723890E9A00A55AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0476694023890E9A00A55AFA /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0476694223890E9A00A55AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0476694B23890E9A00A55AFA /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0476693D23890E9A00A55AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0476691F23890E9800A55AFA /* 颜色转换工具类 */;
+			targetProxy = 0476693C23890E9A00A55AFA /* PBXContainerItemProxy */;
+		};
+		0476694823890E9A00A55AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0476691F23890E9800A55AFA /* 颜色转换工具类 */;
+			targetProxy = 0476694723890E9A00A55AFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0476692C23890E9800A55AFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0476692D23890E9800A55AFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0476693123890E9A00A55AFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0476693223890E9A00A55AFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0476694D23890E9A00A55AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0476694E23890E9A00A55AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0476695023890E9A00A55AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = "颜色转换工具类/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.QuickstartApp.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0476695123890E9A00A55AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = "颜色转换工具类/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.QuickstartApp.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0476695323890E9A00A55AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = "颜色转换工具类Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.QuickstartApp.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/颜色转换工具类.app/颜色转换工具类";
+			};
+			name = Debug;
+		};
+		0476695423890E9A00A55AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = "颜色转换工具类Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.QuickstartApp.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/颜色转换工具类.app/颜色转换工具类";
+			};
+			name = Release;
+		};
+		0476695623890E9A00A55AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = "颜色转换工具类UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.QuickstartApp.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "颜色转换工具类";
+			};
+			name = Debug;
+		};
+		0476695723890E9A00A55AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = "颜色转换工具类UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.QuickstartApp.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "颜色转换工具类";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0476691B23890E9800A55AFA /* Build configuration list for PBXProject "颜色转换工具类" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0476694D23890E9A00A55AFA /* Debug */,
+				0476694E23890E9A00A55AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0476694F23890E9A00A55AFA /* Build configuration list for PBXNativeTarget "颜色转换工具类" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0476695023890E9A00A55AFA /* Debug */,
+				0476695123890E9A00A55AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0476695223890E9A00A55AFA /* Build configuration list for PBXNativeTarget "颜色转换工具类Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0476695323890E9A00A55AFA /* Debug */,
+				0476695423890E9A00A55AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0476695523890E9A00A55AFA /* Build configuration list for PBXNativeTarget "颜色转换工具类UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0476695623890E9A00A55AFA /* Debug */,
+				0476695723890E9A00A55AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0476691823890E9800A55AFA /* Project object */;
+}
